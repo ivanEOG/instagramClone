@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    background-color: #F5F5F5;
+    font-family:sans-serif;
+}
+
+/*Layout*/
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 375px;
+    background-color: #FFFFFF;
+}
+
+/*Hero section*/
+
+#oldgram-icon{
+    width: 127px;
+}
+
+
+.circle-avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+.hero{
+    width: 343px;
+    height: 35px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+#post-display{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-profile{
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    height: 35px;
+}
+
+.profile-data{
+    margin: 0px 0px 0px 7px;
+}
+
+.post-pofile-name{
+    margin: 0px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.post-location{
+    display: inline-block;
+    margin: 0px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.post-img{
+    width: 100%;
+}
+
+.action-icon-style{
+    margin: 0px;
+    width: 23px;
+    padding: 20px 10px 10px 10px;
+    transition-duration: 0.5s;
+}
+
+.action-icon-style:hover{
+    scale: 1.4;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.action-icon-style:active{
+    opacity: 0.5;
+}
+
+.likes{
+    margin: 12px 13px;
+    line-height: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.comments{
+    margin: 0px 13px 12px 13px;
+    line-height: 15px;
+    font-size: 13px;
+}
+
+.username-commetn{
+    font-weight: bold;
+}
